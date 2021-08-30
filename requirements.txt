@@ -1,5 +1,5 @@
 discord.py==1.7.3
-voice_client==21.2.4
+voice_client==21.2.2
 youtube.dl==2021.6.6
 asyncio==3.4.3
 bs4==0.0.1
