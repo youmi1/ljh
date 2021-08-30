@@ -2,5 +2,4 @@ discord.py==1.7.3
 youtube.dl==2021.6.6
 asyncio==3.4.3
 bs4==0.0.1
-selenium==1.26.1
 Options==1.4.10
