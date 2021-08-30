@@ -8,6 +8,8 @@ import bs4
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from discord import FFmpegPCMAudio
+import os
+
 
 bot = commands.Bot(command_prefix='^')
 
@@ -275,5 +277,5 @@ async def 멜론차트(ctx):
         await ctx.send("이미 노래가 재생 중이라 노래를 재생할 수 없어요!")
 
 
-
-bot.run('ODcxNzU4NTI5MTA1NjQxNTUy.YQf-ZQ.Bl0TY4wHbZ5fjrqhWWJnsgM5QII')
+access_token = os.environ["BOT_TOKEN"]
+bot.run(access_token)
